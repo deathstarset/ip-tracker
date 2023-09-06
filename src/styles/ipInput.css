@@ -1,0 +1,54 @@
+.ip-input {
+  background: white;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+h1 {
+  color: white;
+  font-weight: 600;
+  margin-top: 40px;
+}
+.ip-input input {
+  border: none;
+  outline: none;
+  height: 100%;
+  padding: 17px;
+  border-radius: 15px;
+  font-size: 18px;
+  padding-left: 20px;
+  width: 85%;
+}
+.ip-input div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  width: 15%;
+  color: white;
+  height: 100%;
+
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+}
+.ip-input div:hover {
+  opacity: 0.7;
+}
+.ip-input div ion-icon {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media (max-width: 576px) {
+  .ip-input {
+    width: 100%;
+  }
+}
+@media (max-width: 420px) {
+  h1 {
+    font-size: 20px;
+  }
+}

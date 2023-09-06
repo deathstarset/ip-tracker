@@ -1,0 +1,29 @@
+.ip-search {
+  background: url("../images//pattern-bg-desktop.png");
+  height: 35vh;
+  z-index: 2;
+  position: relative;
+}
+.ip-search-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+.infos-skeleton {
+  z-index: 1000;
+}
+@media (max-width: 576px) {
+  .ip-search {
+    background: url("../images//pattern-bg-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 35vh;
+  }
+  .ip-search-container {
+    gap: 15px;
+  }
+}
